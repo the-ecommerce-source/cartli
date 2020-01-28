@@ -1,0 +1,26 @@
+{
+    "name": "TES/cartli",
+    "description": "This is ecommerce package for laravel framework.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "query",
+            "email": "cartlicms@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}, 
+	"autoload":{
+		"psr-4":{
+			"TES\\Cartli\\":"src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"TES\\Cartli\\CartliServiceProvider"
+			]
+		}
+	}
+}
