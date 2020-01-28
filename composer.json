@@ -1,5 +1,5 @@
 {
-    "name": "TES/cartli",
+    "name": "tes/cartli",
     "description": "This is ecommerce package for laravel framework.",
     "type": "package",
     "license": "MIT",
