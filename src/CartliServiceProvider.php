@@ -14,7 +14,12 @@ class CartliServiceProvider extends ServiceProvider
             $this->commands([
                 App\Commands\Admin::class
             ]);
-        }    
+        }
+        
+        $this->publishes([
+			__DIR__ . '/resources/assets/css' => public_path('css'),
+			__DIR__. '/resources/assets/js' => public_path('js'),
+		], 'public');
     }
 
     public function register()
