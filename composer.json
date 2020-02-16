@@ -15,7 +15,12 @@
 		"psr-4":{
 			"TES\\Cartli\\":"src/"
 		}
-	},
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TES\\Cartli\\Tests\\": "tests/"
+      }
+    },
 	"extra": {
 		"laravel": {
 			"providers": [
