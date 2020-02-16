@@ -1,5 +1,5 @@
 <?php
-$namespace = 'TES\Cartli\App\Http\Controllers';
+$namespace = 'TES\Cartli\Http\Controllers';
 Route::group([    
     'namespace' => $namespace,
     'middleware' => ['web'], 

@@ -1,9 +1,9 @@
 <?php
 
-namespace TES\Cartli\App\Commands;
+namespace TES\Cartli\Commands;
 
 use Illuminate\Console\Command;
-use TES\Cartli\App\Models\Admin as AdminModel;
+use TES\Cartli\Models\Admin as AdminModel;
 use Illuminate\Support\Facades\Validator;
 class Admin extends Command
 {

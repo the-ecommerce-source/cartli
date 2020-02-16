@@ -1,6 +1,6 @@
 <?php
 
-namespace TES\Cartli\App\Http\Controllers;
+namespace TES\Cartli\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
